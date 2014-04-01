@@ -1,0 +1,14 @@
+/*This is my amazing style, dont dare to steal them*/
+
+h1{}
+h2{font-family:Verdanna, sans-serif;color: #576D94;}
+h3{font-size:17px; color:purple;}
+h4{font-size:16px; color:green;}
+h5{font-size:14px; color:magenta;}
+h6{}
+
+img{border:20px; height:100px; width: 100px;}
+a{color:purple; font-size: 50px; font-family: comic-sans;}
+
+p{color:#4a4943;font-size:18p /*font-size:59px*/;font-family:Garamond,serif;}
+span {color:blue;font-size:50px;}

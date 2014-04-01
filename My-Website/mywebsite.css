@@ -1,0 +1,35 @@
+.mainbtn {text-align:center;}
+/*.well {background-color:white;border-color:grey; border-width:15px;}*/
+.container {padding-left:30px; padding-top:20px;}
+.text {padding-left:30px; padding-right:30px; padding-top:20px; padding-bottom:40px; font:Helvetica; font-size:12px;text-align:center;}
+.col-md-4 > p > b  {font-size:14px; text-align:justify;}
+.col-md-4 > ul > li {text-align:left;}
+.col-md-4 > p {text-align:left;}
+.well {margin-bottom:0px;}
+.col-md-12 {padding-top: 20px; font-size: 12px; background-color:#B9D989; border-top:4px; border-top-color:white;}
+
+.col-md-3 > a:hover { color: white; }
+.col-md-3 > a {color: #0477BF; text-align:left; background-color:#B9D989;}
+
+.carousel-caption {padding-top:60px;}
+.searchbox_demo {padding-top:30px; padding-bottom: 40px; padding-left:280px;}
+.searchbox_demo > p {font-size: 12px;}
+
+
+/* NAVIGATION BAR*/
+.navbar-nav {margin-left: 20%; margin-right:20%;}
+.navbar .nav > li > a {background-color: #B9D989; color: white; max-width: 1455px; font-size: 14px;}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover { color: #0477BF; } 
+.navbar-default {background-color:#B9D989;width:100%;}
+.navbar navbar-default > {}
+.nav > ul {text-align:center; display: inline-block; list-style-type: none;}
+
+.weather {padding-left:100px;}
+
+.searchbox_demo {align-content:center;}
+.recycle {padding-left: 600px;padding-bottom: 50px;}
+
+.bs-docs-footer {padding-top: 10px; padding-bottom: 20px; color:#0477BF; text-align: center; border-top: 1px solid #e5e5e5; background-color:#B9D989; font-size:
+12px;}
+
+.logo{padding-top:20px;padding-left:30px;}
