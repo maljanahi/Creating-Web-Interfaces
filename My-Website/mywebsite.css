@@ -1,11 +1,11 @@
+
+/* NAVIGATION BUTTON */
 .mainbtn {text-align:center;}
 
-.well {border-right: 1px solid; padding-left: 20px;}
-
-.container {padding-left:30px;}
-.text {padding-left:30px; padding-right:30px; padding-top:20px; padding-bottom:40px; font:Helvetica; font-size:12px;text-align:center;}
+/*.container {padding-left:150px;}*/
 .li {text-align: left;}
 
+/* COLUMNS */
 .col-md-3 > a:hover { color: white; }
 .col-md-3 > a {color: #0477BF; text-align:left; background-color:#B9D989;}
 
@@ -24,20 +24,13 @@
 
 .col-md-12 {padding-top: 20px; font-size: 12px; background-color:#B9D989; border-top:4px; border-top-color:white;}
 
-.text > row > col-md-6 > li {text-align: left;}
-.links {padding-left: 20px;}
-.chart {padding-left: 150px}
-.statistics {padding-left: 15px; text-align: left;padding-right: 20px;}
-.facts {padding-left: 10px; text-align: left;margin-right: 0px;}
-.sources {text-align: left;}
-.recycle {padding-left: 600px;padding-bottom: 50px;}
-.logo{padding-top:20px;padding-left:30px;}
-.img {margin-left: auto;}
-.map {padding-left: 100px;}
 
+/* SLIDE SHOW */
 .carousel-caption {padding-top:60px;}
 
-.searchbox_demo {padding-top:30px; padding-bottom: 40px; padding-left:20px;}
+
+/* SEARCH ENGINE */
+.searchbox_demo {padding-top:30px; padding-bottom: 40px; text-align:center; margin: 0px;}
 .searchbox_demo > p {font-size: 12px;}
 
 
@@ -49,6 +42,24 @@
 .navbar-default {background-color:#B9D989;width:100%;border: 0px;}
 .nav > ul {text-align:center; display: inline-block; list-style-type: none;}
 
+/* FOOTER */
 .bs-docs-footer {padding-bottom: 20px; color:#0477BF; text-align: center; border-top: 1px solid #e5e5e5; background-color:#B9D989; font-size:
 12px;}
+.bs-docs-footer > goup >img {padding-left: 125px;}
+
+/* TEXT */
+.text {padding-left:30px; padding-right:30px; padding-top:20px; padding-bottom:40px; font:Helvetica; font-size:12px;text-align:center;}
+.text > row > col-md-6 > li {text-align: left;}
+.text > row > chart {text-align: center;}
+.text > row > col-md-6 > links {text-align: left;}
+.text > row > col-md-6 > links > p > b {font-size: 30px;}
+
+/* CONTROLS */
+.links {padding-left: 20px; text-align: left;}
+.statistics {padding-left: 15px; text-align: left;padding-right: 20px;}
+.facts {padding-left: 10px; text-align: left;margin-right: 0px;}
+.sources {text-align: left;}
+.recycle {padding-left: 600px;padding-bottom: 50px;}
+.logo{padding-top:20px;padding-left:30px;}
+/*.map {padding-left: 100px;}*/
 
