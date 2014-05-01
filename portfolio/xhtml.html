@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans:400,700,800,300' rel='stylesheet' type='text/css'>
+<style type="text/css">
+																	/*font/style/size*/
+body {
+	font: 100%/1.4 'Merriweather Sans', sans-serif;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-image: url(img/CIMG0906.JPG);
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+h2 { color:#FFF;
+	 text-transform:uppercase;
+	 font-size:18px;
+	 margin-top: 20px;
+}
+h3 { text-transform:uppercase;
+}
+h4 { text-transform:uppercase; color:#49149f; 
+}
+h5 { font-size: 11px; color:#FFF;
+}
+p { color:#49149f; margin-bottom: 10px; font-size:12px;
+}
+hr {
+	background-color:#000;
+	height:3px;
+	margin: 0 15px 0 0;
+}
+
+															/*image/link/visited*/
+a img {
+	border: none;
+}
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+
+															/*hover state --*/
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+.container {
+	width: 1024px;
+	background-color: #9e9a9a;
+	margin: 0 auto;
+}
+
+.footer {
+	background-color: #9e9a9a;
+	height:420px;
+}
+.header {
+	/*position:fixed;*/
+	background-image:url(img/headerbackground.png);
+	background-repeat:no-repeat;
+	padding-bottom: 100px;
+/*	z-index:110;*/
+}
+.info {
+	display: inline;
+	float:left;
+	width: 167px;
+	height: 41px;
+	background: url(img/info-dual.png) bottom;
+	text-indent: -99999px;
+	margin-left:5px;
+	margin-top: 30px;
+}
+.info:hover {
+	background-position: 0 0;
+}
+.home {
+	display: inline;
+	float:left;
+	width: 84px;
+	height: 41px;
+	background: url(img/home-dual.png) bottom;
+	text-indent: -99999px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.home:hover {
+	background-position: 0 0;
+}
+.requirement {
+	display: inline;
+	float:left;
+	width: 194px;
+	height: 41px;
+	background: url(img/req-dual.png) bottom;
+	text-indent: -99999px;
+	margin-left:5px;
+	margin-top: 30px;
+}
+.requirement:hover {
+	background-position: 0 0;
+}
+.techniques {
+	display: inline;
+	float:left;
+	width: 160px;
+	height: 41px;
+	background: url(img/tech-dual.png) bottom;
+	text-indent: -99999px;
+	margin-left:5px;
+	margin-top: 30px;
+}
+.techniques:hover {
+	background-position: 0 0;
+}
+.contacts {
+	display: inline;
+	float:left;
+	width: 139px;
+	height: 41px;
+	background:url(img/contacts-dual.png) bottom;
+	text-indent: -99999px;
+	margin-left:5px;
+	margin-top: 30px;
+}
+.contacts:hover {
+	background-position: 0 0;
+}
+
+																			/* divs --*/
+.videopic { padding: 20px 20px 20px 20px;
+}
+.colright1 { width: 40%; float: left;  text-align:Left; padding-top:225px;
+}
+.colright2 { width: 40%; float: left;  text-align:Left; padding-top:65px;
+}
+.colmiddle { width: 20%; float: left; text-align:center;
+}
+.colleft { width: 40%; float: left; text-align:right; padding-top:160px;
+}
+.colright-footer { width: 45%; float: left; text-align:center; padding-top:40px;color:#000;
+}
+.colmiddle-footer { width: 12%; float: left; text-align:left; padding-top:20px;color:#000;
+}
+.colleft-footer { width: 43%; float: left; text-align:center; padding-top:40px; color:#000;
+}
+.colright-footer p, .colmiddle-footer p, .colleft-footer p { color:#000;
+}
+	
+																		/* float/clear classes --*/
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.car { position: fixed; top: 510px; right: 605px; z-index: 99; width: 157px; height:138px; }
+.start {position: relative; z-index:100;}
+.slideshow { height: 356px; width: 495px; margin-right: 20px; margin-bottom: 30px; float:left;}
+.youtube {float:left; margin-top:3px}
+.hr1 {background-color:#000;
+	height:3px;
+	margin: 0 0 20px 0;
+}
+</head>
+<body>
+<!-- end .style --></style>
+
+<!-- include jQuery library -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade'
+	});
+});
+</script>
+</head>
+
+<body>
+	<div class="container">
+   	  <div class="header">
+    	 <img src="img/logo.png" style="float:left; margin-left:40px; margin-top:20px;" />
+    	 <a href="#home"class="home">home</a>
+    	 <a href="#req" class="requirement">req</a>
+    	 <a href="#tech" class="techniques">tech</a>
+     	 <a href="#info" class="info">info</a>
+     	 <a href="#contacts" class="contacts">contacts</a>
+     <!-- end .header --></div>
+     
+<a name="home"><div class="videopic"></a>
+     <div class="slideshow">
+		<img src="img/_0037_Layer-33.png" width="495" height="356" />
+	 	</div>
+     	<div class="youtube"><iframe width="467" height="350" src="http://www.youtube.com/embed/IPQyQgyuNMI?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<!-- end .videopic --></div>
+     
+<div class="checkers">
+  <img src="img/checkers.png" />
+     <!-- end .check--></div>
+     
+<div class="colleft">
+    	 <h3>Brakes:</h3>
+         <p>Race or fast road spec pads all round.</p>
+         <br />
+         <h3>Suspension:</h3>
+         <p>Set the front for negative Camber to help with oversteer. <br />The rears should be set with very little negative camber to reduce grip in corners.</p>
+         <br />
+         <h3>Steering:</h3>
+         <p>Small steering wheels are actually worse to use.</p>
+         <br />
+         <h3>Clutch:</h3>
+         <p>Any extreme heavy duty clutch.</p>
+ <center><img src="img/requirements1.png" style="padding:70px 70px;" /></center>
+         <br />
+         <h2>Oversteer by acceleration</h2>
+         <br />
+         <h3>Power Over:</h3>
+         <p>If you're cornering and put enough power on the wheels in a RWD car, the natural tendency of the car is to oversteer</p>
+         <br />
+         <h3>Clutch Kick:</h3>
+         <p>During a corner you briefly “kick” down the clutch while remaining on the throttle</p>
+         <br />
+         <h2>Oversteer by weight transfer</h2>
+         <br />
+         <h3>Braking:</h3>
+         <p>You upset the balance only with steering and braking, without locking the gears</p>
+         <br />
+         <h3>Feint:</h3>
+         <p>The feint drifting technique (also called inertia drift) involves using the momentum of the car to get the car drifting</p>
+         <br />
+         <h3>Lift Off:</h3>
+         <p>For the lift off drifting technique you create oversteer by overspeeding and steering into the corner while simultaneously lifting off your foot from the         throttle		</p>
+         <br />
+         <br />
+         <br />
+         <br />
+         <h3 style="margin-top: 20px;">how to drift</h3>
+         <br />
+         <img src="img/howtodrift.png" align="left" style="margin-bottom: 50px; margin-left: 40px" />
+         <h3 style="margin-top: 20px;">drifting competition judging<br />criteria</h3>
+         <br />
+         <br />
+         <img src="img/judgingcriteria.png" align="left" style="margin-bottom: 40px; margin-left: 40px;" />
+     <!-- end .coleft--></div>
+     
+<div class="colmiddle">
+  <div class="car"><img src="img/scroller.png" style="z-index:90;" /></div>
+  <div class="start"><img src="img/start.png" style="z-index:100;" /></div>
+         <div style="clear:both;"></div>
+         <a name="req"><img src="img/requir.png" style="padding-top: 170px; padding-bottom: 250px; padding-left: 25px;" /></a>
+         <div style="clear:both;"></div>
+         <a name="tech"><img src="img/techni.png" style="padding-top: 380px; padding-bottom: 250px; padding-left: 25px;"/></a>
+         <div style="clear:both;"></div>
+         <a name="info"><img src="img/infogra.png" style="padding-top:150px; padding-left: 25px; padding-bottom: 200px;"/></a>
+         <div style="clear:both;"></div>
+     <!-- end .colmiddle--></div>
+     
+<div class="colright1">
+         <h3>Body work:</h3>
+         <p>Secure bumper with cable ties.<p>
+         <h3>Tyres:</h3>
+         <p>Stick with cheap part worn tyres and adjust tire pressure</p>
+         <h3>Safety:</h3>
+         <p>Helmet, Harness, Fire Extinguisher, Roll Cage etc</p>
+ <center><img src="img/requirements2.png" style="padding-top:150px; padding-bottom:75px;" /></center>
+      	 <br />
+<!-- end .colright1--></div>
+         
+<div class="colright2">
+		 <h2>Oversteer by deceleration</h2>
+         <br />
+         <h3>E-Brake:</h3>
+         <p>Using the e-brake drifting technique you can lock-up the rear wheels to influence the car’s behavior</p>
+         <br />
+		 <h3>Shift-Lock:</h3>
+         <p>It’s a novice technique that you’ll most likely be practicing on snow or wet surfaces</p>
+         <br />
+         <h3>Long Slide:</h3>
+         <p>The long slide drifting technique, also known in Japan as Side-Long, or “Choku-Dori” goes above the advanced drifting techniques</p>
+         <br />
+         <br />
+         <h2>Advanced drifting techniques</h2>
+         <h3>Swaying:</h3>
+         <br />
+         <p>when the car is drifting side to side by turning steering wheel</p>
+         <br />
+  		 <br />
+         <br />
+         <h3 style="margin-top: 20px;">experience levels</h3>
+         <br />
+         <img src="img/experience.png" align="left" style="margin-bottom: 50px; margin-right: 40px; margin-left: 10px;" />
+         <h3 style="margin-top: 20px;">red bull drifting world championship : 25,000 spectators</h3>
+         <br />
+         <br />
+         <img src="img/spectators.png" align="left" style="margin-top: 30px; margin-bottom: 40px; margin-right: 40px; margin-left: 10px;" />
+		 <!--end .colright2--></div>
+     
+<div class="checkers">
+		 <img src="img/checkers.png" />
+     <!-- end .check--></div>
+     
+<div class="footer">
+	<div class="colleft-footer">
+         <h4>Colorado Drifting Schools</h4>
+         <br />
+         <br />
+         <br />
+         <br />
+         <p><strong>Colorado Racing School (go4it)</strong><br />
+         (303-666-4113)</p>
+         <br />
+         <p><strong>Drift Colorado</strong><br />
+	     (Brandon@driftcolorado.org)</p>
+         <br />
+         <p><strong>Faasst Performance Driving School</strong><br />
+	     (719-761-1372)</p>
+     <!-- end .coleft--></div>
+     
+	<div class="colmiddle-footer">
+		 <a name="contacts"><img src="img/finished.png" style="margin-top:100px;" /></a>
+     <!-- end .colmiddle--></div>
+     
+	<div class="colright-footer">
+		<h4>Popular drift cars</h4>
+        <br />
+        <p><strong>Nissan</strong> Silvia</p>
+        <p><strong>Nissan</strong> 350</p>
+        <p><strong>Nissan</strong> Skyline</p>
+        <p><strong>Toyota </strong> Supra</p>
+        <p><strong>Mazda</strong> RX7</p>
+        <p><strong>Ford</strong> Mk1</p>
+        <p><strong>Ford</strong> Sierra</p>
+        <p><strong>Honda</strong> S2000</p>
+        <p><strong>Honda</strong> NSX</p>
+        <p><strong>Subaru</strong> Impreza STi</p>
+        <p><strong>Mitsubishi</strong> Lancer Evolution</p>
+        <h5>(AWD cars need modifications<br />to the drivetrain to drift)</h5>
+
+     <!-- end .colright--></div>
+     <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>

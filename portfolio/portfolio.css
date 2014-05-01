@@ -1,0 +1,75 @@
+/* NAVIGATION BUTTON */
+@font-face
+{
+font-family: CODE Light;
+src: url(CODE Light.otf);
+}
+
+@font-face
+{
+font-family: CODE Bold;
+src: url(CODE Bold.otf);
+}
+
+@font-face
+{
+font-family: Nexa Light;
+src: url(Nexa Light.otf);
+}
+
+h1 {font-family: CODE Bold; font-size: 80px; text-align: center;padding-top: 20px; margin: 0px;}
+h2 {font-family: Nexa Light; font-size: 16px; text-align: center;padding: 10px; margin: 0px;}
+h3 {font-family: Nexa Light; font-size: 14px; text-align: center;padding: 10px; margin: 0px;}
+h4 {font-family: CODE Light; font-size: 18px; text-align: left; padding-top: 10px; margin: 0px;}
+h5 {font-family: Nexa Light; font-size: 16px; text-align: left;padding-top: 10px; margin: 0px;}
+h6 {font-family: CODE Bold; font-size: 18px; text-align: left; padding-top: 10px; margin: 0px;}
+h7 {font-family: Nexa Light; font-size: 16px; text-align: center; margin: 0px;}
+
+/* SLIDE SHOW */
+.carousel-caption {padding-top:60px;}
+
+
+/* SEARCH ENGINE */
+.searchbox_demo {padding-top:30px; padding-bottom: 40px; text-align:center; margin: 0px;}
+.searchbox_demo > p {font-size: 12px;}
+
+
+/* NAVIGATION BAR*/
+.navbar {margin-bottom: 0px; align-content: center;}
+.navbar-nav {font: CODE Light; font-family: CODE Light; text-align: center;}
+.navbar .nav > li > a {background-color:#D8D8D7; color: black; max-width: 1455px; font-size: 25px; text-align:center;}
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover { color: white; } 
+.navbar-default {background-color:#D8D8D7;width:100%;border: 0px; text-align: center;}
+.nav navbar-nav {text-align:center;}
+
+
+/* TEXT */
+.col-md-12 > img { text-align: center; padding-bottom: 30px;}
+.goup > col-md-12 {padding-bottom: 30px;}
+.col-md-6 { padding-left: 0px; margin: 0px; padding-bottom: 30px; text-align: center;}
+.col-md-6 > img {text-align: center;}
+
+/* CONTROLS */
+.goup {padding-bottom: 20px; padding-top: 0px;text-align: center;}
+
+.navbar {text-align: center;}
+
+.container {padding: 30px;}
+.last {padding-bottom: 40px;}
+.last > img {text-align: center;}
+
+#email {
+    width: 100%; margin-bottom: 10px; margin-left: 0px; padding: 10px;
+}
+
+#name {width: 100%; margin-bottom: 20px; margin-left: 0px; padding: 10px;
+    
+}
+
+#message {
+    width: 100%; padding: 10px;
+}
+
+.control { padding-top: 0px;
+    
+}
