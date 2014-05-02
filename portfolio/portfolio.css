@@ -41,7 +41,8 @@ h7 {font-family: Nexa Light; font-size: 16px; text-align: center; margin: 0px;}
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover { color: white; } 
 .navbar-default {background-color:#D8D8D7;width:100%;border: 0px; text-align: center;}
 .nav navbar-nav {text-align:center;}
-
+.collapse ul {padding-left: 20%;}
+/*.collapse ul {display: block; margin-right: auto; margin-left: auto;}*/
 
 /* TEXT */
 .col-md-12 > img { text-align: center; padding-bottom: 30px;}
