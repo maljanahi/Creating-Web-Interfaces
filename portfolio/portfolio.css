@@ -4,13 +4,13 @@
 @font-face{font-family: CODE Bold;src: url(CODE Bold.otf);}
 @font-face{font-family: Nexa Light;src: url(Nexa Light.otf);}
 
-h1 {font-family: CODE Bold; font-size: 8.0vmin; text-align: center;padding-top: 10px; margin: 0px;}
+h1 {font-family: CODE Bold; font-size: 8.0vmin; text-align: center;padding-top: 5px; margin: 0px;}
 h2 {font-family: Nexa Light; font-size: 16px; text-align: center;padding: 10px; margin: 0px; padding-top: 0px;}
 h3 {font-family: Nexa Light; font-size: 14px; text-align: center;padding: 10px; margin: 0px;}
 h4 {font-family: CODE Light; font-size: 18px; text-align: left; padding-top: 10px; margin: 0px;}
 h5 {font-family: Nexa Light; font-size: 16px; text-align: left;padding-top: 10px; margin: 0px; padding-bottom: 0px;}
 h6 {font-family: CODE Bold; font-size: 18px; text-align: left; padding-top: 10px; margin: 0px;}
-h7 {font-family: Nexa Light; font-size: 16px; text-align: center; margin: 0px;}
+h7 {font-family: Nexa Light; font-size: 16px; text-align: center;}
 h8 {font-family: Nexa Light; font-size: 16px; text-align: right; padding-top: 10px; margin: 0px; padding-bottom: 0px; padding-right: 0px;}
 
 /* SLIDE SHOW */
@@ -42,7 +42,7 @@ h8 {font-family: Nexa Light; font-size: 16px; text-align: right; padding-top: 10
 
 /* ROWS */
 
-.row-md-1 {padding-bottom: 1px;}
+.row-md-1 {padding-bottom: 0px;}
 
 /* CONTROLS */
 
@@ -64,4 +64,4 @@ h8 {font-family: Nexa Light; font-size: 16px; text-align: right; padding-top: 10
 .info { /*    background: url(images/intro.png) 50% 0 fixed; */height: auto;  margin: 0 auto; width: 100%; position: relative;/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*//*    padding: 100px 0;*/}
 .about { background: url(http://placehold.it/1000x400) 50% 0 fixed;height: 100%;margin: 0 auto; width: 100%; position: relative; /*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/padding: 100px 0;}
 .workk { background: url(http://placehold.it/1000x400) 50% 0 fixed;height: 100%;margin: 0 auto; width: 100%; position: relative; 
-/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/padding: 140px 0;}
+/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/padding: 150px 0;}
