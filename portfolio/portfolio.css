@@ -1,24 +1,29 @@
 /* TEXT */
+
 @font-face{font-family: CODE Light;src: url(CODE Light.otf);}
 @font-face{font-family: CODE Bold;src: url(CODE Bold.otf);}
 @font-face{font-family: Nexa Light;src: url(Nexa Light.otf);}
 
-h1 {font-family: CODE Bold; font-size: 5em; text-align: center;padding-top: 10px; margin: 0px;}
+h1 {font-family: CODE Bold; font-size: 8.0vmin; text-align: center;padding-top: 10px; margin: 0px;}
 h2 {font-family: Nexa Light; font-size: 16px; text-align: center;padding: 10px; margin: 0px; padding-top: 0px;}
 h3 {font-family: Nexa Light; font-size: 14px; text-align: center;padding: 10px; margin: 0px;}
 h4 {font-family: CODE Light; font-size: 18px; text-align: left; padding-top: 10px; margin: 0px;}
 h5 {font-family: Nexa Light; font-size: 16px; text-align: left;padding-top: 10px; margin: 0px; padding-bottom: 0px;}
 h6 {font-family: CODE Bold; font-size: 18px; text-align: left; padding-top: 10px; margin: 0px;}
 h7 {font-family: Nexa Light; font-size: 16px; text-align: center; margin: 0px;}
+h8 {font-family: Nexa Light; font-size: 16px; text-align: right; padding-top: 10px; margin: 0px; padding-bottom: 0px; padding-right: 0px;}
 
 /* SLIDE SHOW */
+
 .carousel-caption {padding-top:60px;}
 
 /* SEARCH ENGINE */
+
 .searchbox_demo {padding-top:30px; padding-bottom: 40px; text-align:center; margin: 0px;}
 .searchbox_demo > p {font-size: 12px;}
 
 /* NAVIGATION BAR*/
+
 @media (min-width: 768px){.navbar-nav{   margin: 0 auto;   display: table; table-layout: fixed;float:none;}}  
 .navbar {margin-bottom: 0px; align-content: center;}
 .navbar-nav {font: CODE Light; font-family: CODE Light; text-align: center;}
@@ -27,15 +32,16 @@ h7 {font-family: Nexa Light; font-size: 16px; text-align: center; margin: 0px;}
 .navbar-default {background-color:#D8D8D7;width:100%;border: 0px; text-align: center;}
 .nav navbar-nav {text-align:center;}
 .collapse ul {padding-left: left;}
-.navbar {text-align: center;}
 
 /* COLUMNS */
+
 .col-md-12 > img { text-align: center; padding-bottom: 30px;}
 .goup > col-md-12 {padding-bottom: 30px;}
-.col-md-6 { padding-left: 0px; margin: 0px; padding-bottom: 30px; text-align: center;}
+.col-md-6 { padding-left: 0px; margin: 0px; padding-bottom: 30px; text-align: right; padding-right: 0px;}
 .col-md-6 > img {text-align: center;}
 
 /* ROWS */
+
 .row-md-1 {padding-bottom: 1px;}
 
 /* CONTROLS */
@@ -58,4 +64,4 @@ h7 {font-family: Nexa Light; font-size: 16px; text-align: center; margin: 0px;}
 .info { /*    background: url(images/intro.png) 50% 0 fixed; */height: auto;  margin: 0 auto; width: 100%; position: relative;/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*//*    padding: 100px 0;*/}
 .about { background: url(http://placehold.it/1000x400) 50% 0 fixed;height: 100%;margin: 0 auto; width: 100%; position: relative; /*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/padding: 100px 0;}
 .workk { background: url(http://placehold.it/1000x400) 50% 0 fixed;height: 100%;margin: 0 auto; width: 100%; position: relative; 
-/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/padding: 130px 0;}
+/*    box-shadow: 0 0 50px rgba(0,0,0,0.8);*/padding: 140px 0;}
