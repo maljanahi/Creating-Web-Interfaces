@@ -8,7 +8,7 @@ h1 {font-family: CODE Bold; font-size: 8.0vmin; text-align: center;padding-top: 
 h2 {font-family: Nexa Light; font-size: 16px; text-align: center;padding: 10px; margin: 0px; padding-top: 0px;}
 h3 {font-family: Nexa Light; font-size: 14px; text-align: center;padding: 10px; margin: 0px;}
 h4 {font-family: CODE Light; font-size: 18px; text-align: left; padding-top: 10px; margin: 0px;}
-h5 {font-family: Nexa Light; font-size: 16px; text-align: left;padding-top: 10px; margin: 0px; padding-bottom: 0px;}
+h5 {font-family: Nexa Light; font-size: 16px; text-align: justify;padding-top: 10px; margin: 0px; padding-bottom: 0px;}
 h6 {font-family: CODE Bold; font-size: 18px; text-align: left; padding-top: 10px; margin: 0px;}
 h7 {font-family: Nexa Light; font-size: 16px; text-align: center;}
 h8 {font-family: Nexa Light; font-size: 16px; text-align: right; padding-top: 10px; margin: 0px; padding-bottom: 0px; padding-right: 0px;}
