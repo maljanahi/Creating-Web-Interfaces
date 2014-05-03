@@ -44,7 +44,7 @@ BEGIN
   $max_recipients    = 5;
   $mailprog          = '/usr/lib/sendmail -oi -t';
   $postmaster        = '';
-  @referers          = qw(mohammedaljanahi www.mohammedaljanahi.com localhost);
+  @referers          = qw(mohammedaljanahi.com www.mohammedaljanahi.com localhost);
   @allow_mail_to     = qw(m.al.janahi@hotmail.com localhost);
   @recipients        = ();
   %recipient_alias   = ();
