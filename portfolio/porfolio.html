@@ -22,9 +22,18 @@
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
           
            <!-- Include all compiled plugins (below), or include individual files as needed -->
-                <script src="js/bootstrap.min.js"></script>
-                <script src="js/bootstrap-l.min.js"></script>
-           <!--                <script src="js/bootstrap-lightbox.js"></script>-->
+                <script type="text/javascript" src="js/bootstrap.js"></script>
+                <script type="text/javascript" src="js/bootstrap.min.js"></script>
+                <script type="text/javascript" src="js/bootstrap-lightbox.js"></script>
+    
+                <script src="js/swffit.js"></script>
+                <script type="text/javascript" src="swffit.js"></script>
+                <script type="text/javascript">
+                <!--
+                swffit.fit("flashContent", 300, 100);
+                //-->
+                </script>
+    
                 <script src="http://code.jquery.com/jquery.js"></script>
 		   <!-- yea, yea, not a cdn, i know -->
                 <script src="http://rawgithub.com/ashleydw/lightbox/master/dist/ekko-lightbox.js"></script>
@@ -51,7 +60,8 @@
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span></button>       
+                    <span class="icon-bar"></span>
+                    </button>       
                     <div class="collapse navbar-collapse" id="upper-collapse">
                     <ul class="nav navbar-nav">
                     <li><a href="#home">HOME</a></li>
@@ -65,45 +75,42 @@
 <!----------------------------------------------------------------- Front page ---------------------------------------------------------------------------------->
                     <div class="intro">
                         <div style="position: absolute; z-index:9999;">
-                                <img src="images/frontpage.png" class="img-responsive" alt="mohammed aljanahi communication desinger dxb - lhr - muc - den">
-                                </div>
-<div id="flashContent">
-			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1450" height="700" id="empty_scene" align="middle">
-				<param name="movie" value="empty_scene.swf" />
-				<param name="quality" value="high" />
-				<param name="bgcolor" value="#ffffff" />
-				<param name="play" value="true" />
-				<param name="loop" value="true" />
-				<param name="wmode" value="window" />
-				<param name="scale" value="noborder" />
-				<param name="menu" value="true" />
-				<param name="devicefont" value="false" />
-				<param name="salign" value="" />
-				<param name="allowScriptAccess" value="sameDomain" />
-				<param name="allowFullScreen" value="true" />
-				<!--[if !IE]>-->
-				<object type="application/x-shockwave-flash" data="empty_scene.swf" width="1450" height="700">
-					<param name="movie" value="empty_scene.swf" />
-					<param name="quality" value="high" />
-					<param name="bgcolor" value="#ffffff" />
-					<param name="play" value="true" />
-					<param name="loop" value="true" />
-					<param name="wmode" value="window" />
-					<param name="scale" value="noborder" />
-					<param name="menu" value="true" />
-					<param name="devicefont" value="false" />
-					<param name="salign" value="" />
-					<param name="allowScriptAccess" value="sameDomain" />
-					<param name="allowFullScreen" value="true" />
-				<!--<![endif]-->
-					<a href="http://www.adobe.com/go/getflash">
-						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
-					</a>
-				<!--[if !IE]>-->
-				</object>
-				<!--<![endif]-->
-			</object>
-		</div>
+                        <img src="images/frontpage.png" class="img-responsive" alt="mohammed aljanahi communication desinger dxb - lhr - muc - den">
+                        </div>
+<!----------------------------------------------------------------- Animation ---------------------------------------------------------------------------------->
+                        <div id="flashContent">
+                        <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="empty_scene" align="middle">
+                            <param name="movie" value="empty_scene.swf" />
+                            <param name="quality" value="high" />
+                            <param name="bgcolor" value="#ffffff" />
+                            <param name="play" value="true" />
+                            <param name="loop" value="true" />
+                            <param name="wmode" value="window" />
+                            <param name="scale" value="noborder" />
+                            <param name="menu" value="true" />
+                            <param name="devicefont" value="false" />
+                            <param name="salign" value="" />
+                            <param name="allowScriptAccess" value="sameDomain" />
+                            <param name="allowFullScreen" value="true" />
+                            <!--[if !IE]>-->
+                            <object type="application/x-shockwave-flash"  data="empty_scene.swf" width="100%" height="100%">
+                                <param name="movie" value="empty_scene.swf" />
+                                <param name="quality" value="high" />
+                                <param name="bgcolor" value="#ffffff" />
+                                <param name="play" value="true" />
+                                <param name="loop" value="true" />
+                                <param name="wmode" value="window" />
+                                <param name="scale" value="noborder" />
+                                <param name="menu" value="true" />
+                                <param name="devicefont" value="false" />
+                                <param name="salign" value="" />
+                                <param name="allowScriptAccess" value="sameDomain" />
+                                <param name="allowFullScreen" value="true" />
+                            <!--[if !IE]>-->
+                            </object>
+                            <!--<![endif]-->
+                        </object>
+		                </div>
                     </div>
 <!----------------------------------------------------------------- About page ---------------------------------------------------------------------------------->
                     <a name="about"></a>
@@ -249,9 +256,9 @@
                     <div class="col-md-6">
                     <h6 style="text-align:center;">My Photography</h6>
 <!----------------------------------------------------------------- first pop-up -------------------------------------------------------------------------------->
-                    <div class="row-md-1">
+                    <div class="row-xs-1">
                     <div class="row">
-                    <div class="col-md-offset-2 col-md-8" style="padding: 20px;">
+                    <div class="col-xs-offset-2 col-xs-8" style="padding: 20px;">
                     <div class="row">
                     <a href="http://distilleryimage6.ak.instagram.com/ba70b8e8030011e3a31b22000a1fbb63_7.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs" class="col-sm-4">
                     <img src="//distilleryimage6.ak.instagram.com/ba70b8e8030011e3a31b22000a1fbb63_7.jpg" class="img-responsive center-block">
@@ -267,9 +274,9 @@
                     </div>
                     </div>
 <!----------------------------------------------------------------- second pop-up ------------------------------------------------------------------------------->
-                    <div class="row-md-1">
+                    <div class="row-xs-1">
                     <div class="row">
-                    <div class="col-md-offset-2 col-md-8" style="padding: 20px;">
+                    <div class="col-xs-offset-2 col-xs-8" style="padding: 20px;">
                     <div class="row">
                     <a href="http://distilleryimage6.ak.instagram.com/ba70b8e8030011e3a31b22000a1fbb63_7.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs" class="col-sm-4">
                     <img src="//distilleryimage6.ak.instagram.com/ba70b8e8030011e3a31b22000a1fbb63_7.jpg" class="img-responsive center-block">
@@ -285,9 +292,9 @@
                     </div>
                     </div>
 <!----------------------------------------------------------------- third pop-up -------------------------------------------------------------------------------->
-                    <div class="row-md-1">
+                    <div class="row-xs-1">
                     <div class="row">
-                    <div class="col-md-offset-2 col-md-8" style="padding: 20px;">
+                    <div class="col-xs-offset-2 col-xs-8" style="padding: 20px;">
                     <div class="row">
                     <a href="http://distilleryimage6.ak.instagram.com/ba70b8e8030011e3a31b22000a1fbb63_7.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="People walking down stairs" class="col-sm-4">
                     <img src="//distilleryimage6.ak.instagram.com/ba70b8e8030011e3a31b22000a1fbb63_7.jpg" class="img-responsive center-block">
