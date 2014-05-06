@@ -40,7 +40,7 @@
 .navbar .nav > li > a {background-color: #B9D989; color: white; max-width: 1455px; font-size: 14px;}
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover { color: #0477BF; } 
 .navbar-default {background-color:#B9D989;width:100%;border: 0px;}
-.nav > ul {text-align:center; display: inline-block; list-style-type: none;}
+.nav > ul {text-align:left; display: inline-block; list-style-type: none;}
 
 /* FOOTER */
 /*hr {margin-top: 0px;margin-bottom: 20px;border: 0;border-top: 1px solid #eee;}*/
@@ -68,3 +68,7 @@
 
 
 .goup {padding-bottom: 20px; padding-top: 0px;}
+
+.lowernavbar {text-align:left;
+    
+}
